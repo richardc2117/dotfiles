@@ -1,0 +1,30 @@
+# c++ obj files
+*.slo
+*.lo
+*.o
+*.obj
+
+# c++ executables
+*.exe
+*.out
+*.app
+
+# xcode
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcworkspace/contents.xcworkspacedata
+/*.gcno
+**/xcshareddata/WorkspaceSettings.xcsettings
+
+#django
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+.env
+.venv
+env/
+venv/
